@@ -76,7 +76,7 @@ export default function AfficherEleve() {
         <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
           <Ionicons name="arrow-back" size={24} color="white" />
         </TouchableOpacity>
-        <Text style={styles.headerTitle}>Élèves eleve rachiddd</Text>
+        <Text style={styles.headerTitle}>Élèves</Text>
       </View>
 
       <ScrollView contentContainerStyle={styles.scrollContent}>
