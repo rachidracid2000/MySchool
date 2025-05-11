@@ -46,6 +46,7 @@ export default function AdminLoginScreen() {
 
         <TouchableOpacity style={styles.loginButton} onPress={() => {
     // tu peux ajouter ici des conditions si besoin
+       // badis
     if (email=="" && password=="") {
       router.push('/src/Firstpage/Admin/espaceadmin'); // Change ça vers ton écran cible
     } else {
