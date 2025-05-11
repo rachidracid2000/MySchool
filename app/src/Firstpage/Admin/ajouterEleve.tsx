@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-//jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+
 export default function AjouterEleve() {
   const router = useRouter();
   const [id, setid] = useState<string>('');
@@ -151,7 +151,7 @@ export default function AjouterEleve() {
         <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
           <Ionicons name="arrow-back" size={24} color="#fff" />
         </TouchableOpacity>
-        <Text style={styles.headerTitle}>Ajouter un élève</Text>
+        <Text style={styles.headerTitle}>Ajouter un élève   et eleeeeve</Text>
       </View>
 
       {/* Formulaire */}
